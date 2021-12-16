@@ -1,155 +1,160 @@
 const profileData = {
-  title: 'Resume',
-  name: 'Vipin Yadav',
-  sub_title: 'Frontend Developer',
-  logoURL: 'assets/images/dp.jpg',
+  title: 'Profile',
+  name: 'Manoj Pedvi',
+  sub_title: 'Sr. Android Engineer',
   about: {
-    intro: `I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
-     and it's applications. Experienced in designing and implementing sophisticated UI/UX with
-      Progressive Web Application standards and application life-cycle managements.`,
+    intro: ``,
     contact: {
-      email: 'imvpn22@gmail.com',
-      phone: '+91-9919716378',
-      address: 'Bangalore, IN'
+      email: 'manoj.pedvi@gmail.com',
+      phone: '+91-9850347122',
+      address: 'Mumbai, Maharashtra'
     }
   },
   links: [
-    { title: 'Codepen', src: 'https://codepen.io/imvpn22' },
-    { title: 'Github', src: 'https://github.com/imvpn22' },
-    { title: 'LinkedIn', src: 'https://www.linkedin.com/in/imvpn22' }
-    // { title: 'Twitter', src: 'https://twitter.com/imvpn22' }
-    // { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' },
+    { title: 'LinkedIn', src: 'https://in.linkedin.com/in/manoj-pedvi' },
   ],
   education: [
     {
-      alma: 'FET, GKV, Haridwar',
-      duration: '2014 - 2018',
-      std: 'B.Tech. (Computer Science & Engineering)',
-      score: '71.00%'
-    },
-    {
-      alma: 'Jwala Devi SVMIC, Prayagraj',
-      duration: '2011 - 2013',
-      std: 'Class XI - XII (PCM)',
-      score: '89.80%'
-    },
-    {
-      alma: 'Jwala Devi SVMIC, Prayagraj',
-      duration: '2011 - 2013',
-      std: 'Class IX - X (PCM)',
-      score: '73.33%'
+      alma: 'Graduating May 2011',
+      duration: '',
+      std: '',
+      score: 'Mumbai University'
     }
   ],
   skills: [
     {
-      category: 'Programming Languages',
-      topics: ['TypeScript', 'JavaScript', 'C', 'C++']
+      category: 'Mobile Technologies',
+      topics: ['Android', 'Xamarin', 'React-Native']
     },
     {
-      category: 'Frameworks / Libraries',
-      topics: [
-        'ReactJS',
-        'Redux',
-        'NodeJS',
-        'Express',
-        'Angular',
-        'Bootstrap',
-        'antd'
-      ]
+      category: 'Programming Languages',
+      topics: ['Kotlin', 'Java', 'C#', 'Node']
     },
     {
       category: 'Databases',
-      topics: ['MongoDB', 'PostgreSQL']
+      topics: ['SQLite', 'SQL Server', 'My SQL', 'Realm']
+    },
+    {
+      category: 'Web technologies:',
+      topics: [
+        'HTML', 'CSS', 'JavaScript', 'REST', 'Node.js'
+      ]
     }
   ],
   projects: [
     {
-      title: 'Restaurant Review',
-      duration: 'June - Nov 2018',
-      link: 'https://github.com/imvpn22/restaurant-review-pwa',
-      desc: `A web-app to list, view and add reviews of restaurents.
-      The app includes filtering based on location, cuisine and rating.
-      This project was a part of Udacity's <strong>Mobile Web Specialist</strong> nano degree program.
-      Developed using <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>JavaScript</strong>
-      with Progressive Web-Application standards including full-responsiveness,
-      offline support and improved accessibility.`
+      title: 'Miami Heat',
+      duration: '2018-2021',
+      link: 'https://play.google.com/store/apps/details?id=com.xcosoftware.miamiheat',
+      desc: `The official app of the Miami HEAT basketball team with exclusive content, scores and schedules & more written in Java/Kotlin`
     },
     {
-      title: 'WhiteBoard',
-      duration: 'Jun - Aug 2017',
-      link: 'https://github.com/imvpn22/whiteboard',
-      desc: `A simple <strong>web-app for collaborative brainstorming sessions</strong>.
-      The app includes a real-time messaging and sketching platform for collaboration with Peers.
-      It also has features to create groups(teams) and add/remove members.
-      Developed using <strong>Node.js-Express</strong> with server-side-templating (EJS),
-      <strong>CSS</strong>, <strong>JavaScript</strong> and <strong>Socket.io</strong>.`
-    }
+      title: 'Atlanta Hawks',
+      duration: '2018-2021',
+      link: 'https://play.google.com/store/apps/details?id=com.yinzcam.nba.hawks',
+      desc: `Official mobile app of the Atlanta Hawks & State Farm Arena with exclusive content, scores and schedules & more written in Java/Kotlin`
+    },
+    {
+      title: 'Sacramento Kings',
+      duration: '2018-2021',
+      link: 'https://play.google.com/store/apps/details?id=com.kings',
+      desc: `Sacramento Kings + Golden 1 Center app, providing the ultimate interactive fan experience with exclusive content, scores and schedules & more written in Java/Kotlin`
+    },
+    {
+      title: 'Intelesafe',
+      duration: '2021-2021',
+      link: 'https://play.google.com/store/apps/details?id=org.intelehealth.intelesafe',
+      desc: `Developed to provide vetted information to help healthcare providers stay safe while being on the job`
+    },
+    {
+      title: 'iRobokid',
+      duration: '2019-2021',
+      link: 'https://play.google.com/store/apps/details?id=com.raweng.irobokid',
+      desc: `App for parents with access content like children's class updates, schedules, provide feedback & more written in Kotlin`
+    },
+    {
+      title: 'NBA OPiN SDK',
+      duration: '2017-2021',
+      link: 'https://play.google.com/store/apps/details?id=com.nbaimd.gametime.nba2011',
+      desc: `Partner Integration Network for NBA App written in Java/Kotlin`
+    },
+    {
+      title: 'Dell EMC Conference App',
+      duration: '2016-2017',
+      link: '',
+      desc: `Official mobile app of the Dell Dell EMC Conference with access to personal schedules, the conference agenda,
+      sponsor/exhibitor profiles, session information, social media & more written in React Native`
+    },
+    {
+      title: 'VMWorld Conference App - 2015/16',
+      duration: '2015-2016',
+      link: '',
+      desc: `Official mobile app of the VMWorld Conference with access to personal schedules, the conference agenda,
+      sponsor/exhibitor profiles, session information, social media & more written in Xamarin / React Native`
+    },
+    {
+      title: 'Built.io Backend SDK',
+      duration: '2013-2015',
+      link: '',
+      desc: `Enterprise Mobile Backend-as-a-Service SDK written in C#, Xamarin`
+    },
+    {
+      title: 'FinCore',
+      duration: '2012-2013',
+      link: 'https://www.finacus.co.in/fincore',
+      desc: ` fully browser-based and modular Core Banking System geared to resolve the challenges faced by Banks on a day to day basis`
+    },
   ],
   experiences: [
     {
-      organization: 'Mobile Premier League',
-      title: `Software Development Engineer 1`,
-      date: 'Apr 2020 - Present',
+      organization: 'Intelehealth',
+      title: `Sr. Android Engineer`,
+      date: '2021-Current',
       details: [
-        `Working on the development of internal tools to provide ease in the work of the operation team with tech stack of
-        <strong>ReactJS</strong> with <strong>SCSS</strong> and <strong>Redux</strong> for frontend and <strong>NodeJS-Express</strong>
-        with protobuf for the backend.`,
-        `Created a customized Content Management System for MPL's website, to update content and images on the fly for different pages.`
+        `Worked on multiple healthcare apps`,
+        `Managed/Collaborated with other team members on design & functionality`,
+        `Added new features and fixed bugs in the apps`,
+        `Used Kotlin/Java to create new app features`,
       ]
     },
     {
-      organization: 'Wipro',
-      title: `Project Engineer`,
-      desc: `Project Engineer`,
-      date: 'Aug 2018 - Apr 2020',
+      organization: 'Raw Engineering LLC',
+      title: `Sr. Application Engineer`,
+      date: '2017-2021',
       details: [
-        `Contributed in the development of a <strong>collaborative online
-        blueprint editor</strong> by translating the design mockups into reusable UI components
-        with industry-standard UX patterns using <strong>Angular</strong> with <strong>SCSS</strong>,
-        <strong>NgRx</strong> and <strong>Angular-Material</strong> and adding actions to those by
-        creating services to integrate backend REST-APIs.`,
-        `Resolved UI/UX issues by refactoring React components and re-structuring CSS/SCSS of an internal project with codebase of ReactJS-Redux.`
+        `Worked on multiple apps and SDKs`,
+        `Collaborated with other team members on design & functionality`,
+        `Added new features and fixed bugs in the apps and SDKs`,
+        `Used Kotlin/Java to create new app features`,
       ]
     },
     {
-      organization: 'Venuemonk',
-      title: 'Full-Stack Developer Intern',
-      desc: `<strong>Full-Stack Developer intern</strong> at  <a target='_blank' rel='noreferrer' href='https://www.venuemonk.com/'>
-      <strong> Venuemonk </strong> </a> (<a target='_blank' rel='noreferrer' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'> https://goo.gl/Uz1gaf</a>)`,
-      date: 'Jan 2018 - Apr 2018',
+      organization: 'Raw Engineering LLC',
+      title: `Application Engineer`,
+      date: '2013-2017',
       details: [
-        `Designed and developed a <strong>Venue Onboarding platform</strong> to streamline and automate
-        the onboarding process of partner venues using <strong>React.js-Redux</strong> frontend and
-        <strong>Node.js-Express, MongoDB</strong> backend.`
+        `Worked on multiple apps and SDKs`,
+        `Collaborated with other team members on design & functionality`,
+        `Added new features and fixed bugs in the apps and SDKs`,
+        `Used Java to create new app features`,
       ]
     },
     {
-      organization: 'Hasura',
-      title: 'Product Development Intern (Remote)',
-      desc: `<strong>Product development intern</strong> at <a target='_blank' rel='noreferrer' href='https://hasura.io/'>
-      <strong> Hasura </strong> </a> (<a target='_blank' rel='noreferrer' href='https://goo.gl/8V3jBy'> https://goo.gl/8V3jBy</a>)`,
-      date: 'Jun 2017 - Aug 2017',
+      organization: 'Finacus Solutions Pvt. Ltd.',
+      title: `Software Engineer`,
+      date: '2012-2013',
       details: [
-        `Created a web-app using <strong>Node.js-Express</strong> with <strong>EJS</strong> server-side-templating on
-        <strong>Hasura's BaaS platform</strong> with features of group-chat and a
-        sketch board for real-time collaboration with peers. The work was more focused
-        towards <strong>using auth and data APIs</strong> offered by the platform, deploying the app,
-        testing and reporting the bugs in it.`
+        `Worked on the Core Banking Application`,
+        `Added new features and fixed bugs in the app`,
+        `Collaborated with other team members on design & functionality`,
+        `Used C# / .Net Framework to create new app features`
       ]
     }
   ],
   certifications: [
     {
-      desc: `<strong>Mobile Web Specialist Nanodegree</strong> by <strong>Udacity</strong>.
-      (<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
-      date: 'May - Nov 2018'
-    },
-    {
-      desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC by <em> NPTEL (IIT Madras)
-      and Hasura</em>. Ranked at <strong> top 10 percentile </strong> among more than 2500 candidates.
-       (<a target='_blank' rel='noreferrer' href='https://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'>
-       https://goo.gl/X3HEdR</a>)`,
-      date: 'Jan - Mar 2017'
+      desc: `Aptech Certified Computer Professional`,
+      date: '2012'
     }
   ],
   events: []
