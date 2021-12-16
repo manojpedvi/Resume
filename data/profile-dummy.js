@@ -5,7 +5,7 @@ const profileData = {
   about: {
     intro: ``,
     contact: {
-      email: 'manoj.pedvi.com',
+      email: 'manoj.pedvi@gmail.com',
       phone: '+91-9850347122',
       address: 'Mumbai, Maharashtra'
     }
