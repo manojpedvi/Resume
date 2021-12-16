@@ -28,7 +28,7 @@ const profileData = {
     },
     {
       category: 'Programming Languages',
-      topics: ['Kotlin', 'Java', 'C#', 'Node']
+      topics: ['Kotlin', 'Java', 'C#']
     },
     {
       category: 'Databases',

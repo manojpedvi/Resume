@@ -39,6 +39,12 @@ const profileData = {
       topics: [
         'HTML', 'CSS', 'JavaScript', 'REST', 'Node.js'
       ]
+    },
+    {
+      category: 'Others:',
+      topics: [
+        'Git', 'SVN', 'Agile', 'Jira'
+      ]
     }
   ],
   projects: [
